@@ -1,0 +1,12 @@
+@import "./header",
+"./footer";
+
+* {
+    background-color: #0883AA;
+    font-family: "rock";
+}
+
+@font-face {
+    font-family: "rock";
+    src: url(../fonts/RocknRollOne-Regular.ttf);
+}
