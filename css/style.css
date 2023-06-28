@@ -25,6 +25,116 @@ footer {
   color: black;
 }
 
+@media only screen and (min-width: 1240px) {
+  .locs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+  }
+  .video {
+    width: 50%;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 1239px) {
+  .locs {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+  }
+  .log {
+    display: none;
+  }
+  .inputform {
+    margin: 1rem;
+    font-size: 0.8rem;
+  }
+  .video {
+    width: 90%;
+    height: 100%;
+  }
+}
+section {
+  width: 100%;
+  height: 100%;
+}
+section .carrusel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  padding: 1.5rem;
+}
+section .carrusel .zapatillas {
+  height: 20rem;
+  width: 25rem;
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+}
+section .formulario {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  padding: 2rem;
+}
+section .formulario .inputform {
+  width: 70%;
+  background-color: white;
+}
+section .formulario input::placeholder {
+  color: black;
+}
+
+.nosotros {
+  width: 100%;
+  height: 36rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nosotros p {
+  text-align: center;
+  width: 100%;
+  padding: 2rem;
+}
+
+.mapa {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+}
+.mapa .mapaImg {
+  width: 80%;
+  height: 80%;
+  max-width: 800px;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+article .navegacion {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5rem;
+}
+article .navegacion .etiquetas {
+  padding: 2rem;
+}
+
 * {
   background-color: #0883AA;
   font-family: "rock";
