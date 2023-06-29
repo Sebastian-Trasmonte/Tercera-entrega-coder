@@ -1,8 +1,12 @@
 @import "./header",
 "./footer",
 "./mediaquerys",
-"./body";
-
+"./body",
+"./style-pages/catalogos.scss",
+"./style-pages/contacto.scss",
+"./style-pages/locales.scss",
+"./style-pages/log-registro.scss",
+"./style-pages/nosotros.scss";
 
 * {
     background-color: #0883AA;

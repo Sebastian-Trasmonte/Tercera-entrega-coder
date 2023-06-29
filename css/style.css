@@ -56,70 +56,51 @@ footer {
     height: 100%;
   }
 }
-section {
+section, .mapa, article {
   width: 100%;
   height: 100%;
 }
-section .carrusel {
+section .carrusel, .mapa .carrusel, article .carrusel {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: row;
   padding: 1.5rem;
 }
-section .carrusel .zapatillas {
+section .carrusel .zapatillas, .mapa .carrusel .zapatillas, article .carrusel .zapatillas {
   height: 20rem;
   width: 25rem;
   display: flex;
   flex-direction: row;
   padding: 2rem;
 }
-section .formulario {
+section .formulario, .mapa .formulario, article .formulario {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-content: center;
   padding: 2rem;
-}
-section .formulario .inputform {
-  width: 70%;
-  background-color: white;
-}
-section .formulario input::placeholder {
-  color: black;
-}
-
-.nosotros {
-  width: 100%;
-  height: 36rem;
-  display: flex;
-  flex-direction: column;
   align-items: center;
 }
-.nosotros p {
-  text-align: center;
-  width: 100%;
-  padding: 2rem;
+section .formulario .inputform, .mapa .formulario .inputform, article .formulario .inputform {
+  margin: 2rem;
+  width: 50%;
+  background-color: white;
 }
-
-.mapa {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  padding: 1.5rem;
+section .formulario input::placeholder, .mapa .formulario input::placeholder, article .formulario input::placeholder {
+  color: black;
 }
-.mapa .mapaImg {
-  width: 80%;
-  height: 80%;
-  max-width: 800px;
+section .registro, .mapa .registro, article .registro, section .login, .mapa .login, article .login {
+  margin-left: 25rem;
+  width: 50%;
+  height: 15rem;
+  display: grid;
+  justify-items: center;
 }
 
 article {
   display: flex;
   flex-direction: row;
-  height: 100%;
-  width: 100%;
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
@@ -132,6 +113,34 @@ article .navegacion {
   padding: 5rem;
 }
 article .navegacion .etiquetas {
+  padding: 2rem;
+}
+article .navegacion .etiquetas .navigation {
+  background-color: lightgray;
+  border-radius: 1rem;
+}
+
+.mapa {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+}
+.mapa .mapaImg {
+  width: 80%;
+  height: 80%;
+  max-width: 800px;
+}
+
+.nosotros {
+  width: 100%;
+  height: 36rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nosotros p {
+  text-align: center;
+  width: 50%;
   padding: 2rem;
 }
 
