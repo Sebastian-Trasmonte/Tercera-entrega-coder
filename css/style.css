@@ -32,6 +32,10 @@ footer {
     grid-template-rows: 1fr 1fr 1fr;
     justify-items: center;
   }
+  .inputform {
+    margin: 1rem;
+    background-color: white;
+  }
   .video {
     width: 50%;
     height: 100%;
