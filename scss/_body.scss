@@ -1,3 +1,5 @@
+@import "./colores";
+
 section {
     width: 100%;
     height: 100%;
@@ -30,11 +32,11 @@ section {
         .inputform {
             margin: 2rem;
             width: 50%;
-            background-color: white;
+            background-color: $color-blanco;
         }
 
         input::placeholder {
-            color: black;
+            color: $color-negro;
         }
     }
     
@@ -69,7 +71,7 @@ article {
             padding: 2rem;
 
             .navigation {
-                background-color: lightgray;
+                background-color: $color-gris;
                 border-radius: 1rem;
             }
         }

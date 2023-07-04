@@ -1,6 +1,7 @@
+@import "./colores";
 header {
     width: 100%;
-    background-color: gray;
+    background-color: $color-gris;
     padding: 15px;
     display: flex;
     justify-content: center;

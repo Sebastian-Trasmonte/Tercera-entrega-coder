@@ -1,6 +1,6 @@
 header {
   width: 100%;
-  background-color: gray;
+  background-color: #d3d3d3;
   padding: 15px;
   display: flex;
   justify-content: center;
@@ -22,7 +22,7 @@ footer {
 }
 
 .col {
-  color: black;
+  color: #000000;
 }
 
 @media only screen and (min-width: 1240px) {
@@ -47,9 +47,6 @@ footer {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     justify-items: center;
-  }
-  .log {
-    display: none;
   }
   .inputform {
     margin: 1rem;
@@ -89,10 +86,10 @@ section .formulario, .mapa .formulario, article .formulario {
 section .formulario .inputform, .mapa .formulario .inputform, article .formulario .inputform {
   margin: 2rem;
   width: 50%;
-  background-color: white;
+  background-color: #ffffff;
 }
 section .formulario input::placeholder, .mapa .formulario input::placeholder, article .formulario input::placeholder {
-  color: black;
+  color: #000000;
 }
 section .registro, .mapa .registro, article .registro, section .login, .mapa .login, article .login {
   margin-left: 25rem;
@@ -120,7 +117,7 @@ article .navegacion .etiquetas {
   padding: 2rem;
 }
 article .navegacion .etiquetas .navigation {
-  background-color: lightgray;
+  background-color: #d3d3d3;
   border-radius: 1rem;
 }
 

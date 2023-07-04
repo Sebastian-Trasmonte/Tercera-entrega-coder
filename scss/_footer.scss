@@ -1,3 +1,4 @@
+@import "./colores";
 footer {
     display: flex;
     height: 100%;
@@ -8,5 +9,5 @@ footer {
     padding: 4rem;
 }
 .col {
-    color: black;
+    color: $color-negro;
 }
